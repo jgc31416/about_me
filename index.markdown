@@ -37,7 +37,7 @@ Some of the interesting technical projects I have been directly involved:
 - Both batch and real time data ingestion pipelines.
 - Battery size optimization tool.
 
-Main tech used: Python, Django, React, InfluxDb, PostgresDB, Elastic Search, Redis, Databricks, Kubernetes, Helm, Apache Airflow, Terraform, Azure, GitOps, Github actions, microservices.
+Main tech used: Python, Django, React, InfluxDb, PostgresDB, Elastic Search, Redis, Databricks, Kubernetes, Helm, Apache Airflow, Terraform, Azure, GitOps, Github actions, microservices, OWASP Zap.
 
 ### API Lead at [Equinor](https://www.equinor.com/) IOC - Ptec (2018 - Nov 2020)
 
@@ -62,26 +62,28 @@ The product was a customizable intelligence platform capable of monitoring and i
 Big Data / Machine Learning:
 - Image search with Tensorflow + Serving + Numpy + Faiss on a 40M image database.
 - Document classification system in Python: Gensim, NLTK, Word2Vec, Sentence2Vec, Xgboost on top of 10M document database.
+- 100s of content spiders.
 
 Software Engineering:
 - Architecture and implementation of NLP platform for competitive intelligence monitoring and information retrieval. Inspired in Hexagonal Architecture, distributed nature using microservices.
-- Tech involved: Python, Flask. Redis, MongoDB, ElasticSearch, Postgres for storage and Kafka for distributed work. Django for admin backend and user interface.
-- Jenkins for CI, Nose2 and Selenium for testing.
-- Ansible for infrastructure deployment, mainly in AWS / Docker.
+
+Main tech used: AWS, Docker, Ansible, Python, Flask, Redis, MongoDB, ElasticSearch, Postgres, Kafka, Django, Jenkins, Nose2, Selenium.
 
 ### Tech Lead at [Funidelia](https://www.funidelia.com/) - Retail (April 2014 – May 2016)
 
 Built an end to end analysis and recommendation platform to deliver catalog rankings:
-Pipeline: RabbitMQ, Sqoop, AWS, Hive, Hadoop jobs, SciPy and Spark.
-Results: 15% sales growth in test A-B versus default ordering.
 
-Moved infrastructure to GCE, reduced hosting cost by 200% introducing noSqls
-MongoDb, ElasticSearch, Redis, HAProxy.
+- Pipeline: RabbitMQ, Sqoop, AWS, Hive, Hadoop jobs, SciPy and Spark.
+- Results: 15% sales growth in test A-B versus default ordering.
+
+Moved infrastructure to GCE, reduced hosting cost by 200% introducing noSqls MongoDb, ElasticSearch, Redis, HAProxy.
 
 Set up the IT team growing from 2 programmers to a cross-functional team of
-6, using Scrum for development and Kanban for support. Moved from waterfall to scrum/agile, got rid of huge technical debt.
+6, using Scrum for development and Kanban for support. Moved from waterfall to scrum/agile, got rid of huge technical debt speeding up the frontend by 350%.
 
 Several third party integrations across all the chain: product suppliers: catalog, stock and operations, logistics, payment suppliers, marketplaces (Amazon, Ebay, etc), finance system: (MS Navision).
+
+Main tech used: Prestashop, PHP, RabbitMQ, Sqoop, AWS, Hive, MongoDb, Elasticsearch, Redis, HAProxy, Varnish.
 
 ### DevOps at [Zentyal](https://zentyal.com/) - Software  (Aug 2013 – March 2014)  
 
@@ -92,6 +94,8 @@ Orchestrated deployments with Scalr and Heat + Puppet in Openstack. System
 allowed continuous integration and per branch testing environments leading to
 higher product quality.
 
+Main tech used: Scalr, Heat, Puppet, Openstack.
+
 ### SW Architect at Dagensbedste - Retail (July 2012 – Aug 2013)
 
 Development of core “deal of the day” platform in PHP 5.3, LAMP environment, migration of the mailing system saving 90000 Eur/year.
@@ -101,12 +105,16 @@ continuous integration using Jenkins. Integration with RabbitMQ/Python for async
 
 Development of a monitoring system based on graphite.
 
+Main tech used: PHP, Mysql, Apache.
+
 ### CTO Compring.com - Retail (Dec 2011 – June 2012)
 
 Development and deployment of mixed recommender system (content and social based) for flash sales:
 - MongoDb and Pytables for data ingestion.
 - Freeling and ScyPy for data analysis and recommender modelling.
 - Infrastructure migration from traditional data center to Rackspace cloud, saving 50% of costs and improving speed and availability of the site.
+
+Main tech used: MongoDb, Pytables, Scypy.
 
 ### Software Architect at Barcelona Digital - Smart city (Oct 2011 - Dec 2011)
 
