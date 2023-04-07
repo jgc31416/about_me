@@ -1,9 +1,9 @@
-title: Jesus Gazol Condon - Software Engineer, Technologist, Leader - Bergen, Norway
+title: Jesus Gazol Condon
 keywords: Jesus Gazol Condon, web, developer, software engineer, tech lead
 description: >-
   Jesus Gazol Condon is a software engineer, technologist and leader with over 10 years of experience in the industry. 
   
-baseurl: "about_me" # the subpath of your site, e.g. /blog
+baseurl: "/about_me" # the subpath of your site, e.g. /blog
 url: "https://jgc31416.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  jgc31416
 
